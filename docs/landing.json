@@ -1,0 +1,60 @@
+{
+  "seo_title": "Scrolling screenshots for macOS",
+  "seo_description": "Free, open-source macOS menu bar app that captures a scrolling region and stitches it into one tall PNG. 100% native, runs offline, no analytics or accounts.",
+  "hero_title_line1": "Capture the whole page.",
+  "hero_title_accent": "One tall screenshot.",
+  "hero_sub": "Press ⇧⌘8, drag over any scrollable area, and ScrollStitchShot scrolls it for you and stitches the frames into one tall PNG. Free, native, and entirely on your Mac.",
+  "features_title": "Long captures, handled simply.",
+  "features_sub": "Everything you need to turn a long page or document into a single image, and nothing you do not.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey, menu bar only",
+      "desc": "Lives in the menu bar with no Dock icon. Start a capture with the default ⇧⌘8 shortcut, or record your own in Settings."
+    },
+    {
+      "icon": "cursor",
+      "title": "Automatic or manual scrolling",
+      "desc": "Automatic mode scrolls the region for you and stops when the bottom is reached, you press Esc, or it hits 40 frames. Manual mode grabs a frame every 300 ms while you scroll by hand."
+    },
+    {
+      "icon": "image",
+      "title": "Overlap-based stitching",
+      "desc": "Frames are aligned by comparing rows of downsampled grayscale pixels, and only the new rows are appended. If a match is poor, the result is flagged as possibly misaligned."
+    },
+    {
+      "icon": "sliders",
+      "title": "Trim sticky headers and footers",
+      "desc": "Crop a set number of points from the top and bottom of every frame after the first, so fixed bars appear only once. Scroll step and delay are adjustable too."
+    },
+    {
+      "icon": "display",
+      "title": "Retina and multi-display aware",
+      "desc": "Capture size and scroll offsets account for the display's scale factor, and the region is captured from the display you drew it on."
+    },
+    {
+      "icon": "clipboard",
+      "title": "PNG to folder or clipboard",
+      "desc": "Save to a folder you choose, optionally copy to the clipboard, and optionally play a sound. Images taller than 16,000 px are split into numbered files."
+    }
+  ],
+  "permissions_step": "When prompted, grant Screen Recording in System Settings > Privacy & Security, and Accessibility there too if you want automatic scrolling (manual mode works without it).",
+  "faq": [
+    {
+      "q": "Is ScrollStitchShot really free and open source?",
+      "a": "Yes. It is released under the MIT license, the full source is on GitHub, and there are no paid tiers. It uses only Apple frameworks, with no third-party dependencies."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Screen Recording is required to capture the region you select. Accessibility is needed only for automatic mode, to send scroll-wheel events. The app does not request microphone, camera, or network access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Captures are saved as PNG files in the folder you choose in Settings, falling back to the Desktop if that folder is missing. Preferences are stored locally on your Mac, and the app makes no network calls and has no analytics."
+    },
+    {
+      "q": "Why is the app not notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free open-source project. Right-click the app and choose Open once to get past Gatekeeper, or build it from source with Xcode."
+    }
+  ]
+}

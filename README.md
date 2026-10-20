@@ -1,5 +1,7 @@
 # ScrollStitchShot
 
+**🌐 Website:** [turhe123.github.io/scroll-stitch-shot](https://turhe123.github.io/scroll-stitch-shot/)
+
 Drag a region, let it auto-scroll, and get one tall stitched screenshot of a long page or document.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -28,7 +30,17 @@ macOS has no built-in scrolling screenshot, and the utilities that fill the gap 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="ScrollStitchShot menu bar menu" width="720"></p>
+
+<p align="center"><em>The ScrollStitchShot menu bar menu, with one-click automatic or manual scrolling capture, recent captures, and Settings.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="ScrollStitchShot Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the capture hotkey, save folder, clipboard and sound, auto-scroll step and delay, sticky header/footer trimming, and launch at login.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-permission-prompt.png" alt="Screen Recording permission prompt" width="560"></p>
+
+<p align="center"><em>A clear first-run prompt explains why Screen Recording access is needed and that everything stays on your Mac.</em></p>
 
 ## Install
 

@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The ScrollStitchShot menu bar menu, with one-click automatic or manual scrolling capture, recent captures, and Settings.","alt":"ScrollStitchShot menu bar menu"},
+  {"file":"02-settings.png","caption":"Settings for the capture hotkey, save folder, clipboard and sound, auto-scroll step and delay, sticky header/footer trimming, and launch at login.","alt":"ScrollStitchShot Settings window"},
+  {"file":"03-permission-prompt.png","caption":"A clear first-run prompt explains why Screen Recording access is needed and that everything stays on your Mac.","alt":"Screen Recording permission prompt"}
+]
